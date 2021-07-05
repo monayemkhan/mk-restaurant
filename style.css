@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    display: ;
+    width: 100%;
+    height: 550px;
+}
+span{
+    color: orangered;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    margin-top: 6%;
+    margin-left: 30px;
+}
+.half-width img{
+    width: 80%;
+}
+h1{
+    font-size: 40px;
+}
+.anchor-link{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-image: linear-gradient( to right, green, yellowgreen);
+    border-radius: 20px;
+    color: white;
+}
+
+.half-width .about-image{
+    width: 40%;
+    height: 348px;
+    margin: 0 auto;
+    margin-left: 30%;
+    margin-top: 13%;
+}
+.about-banner{
+    background-image: url("images/shapes/7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin-top:150px;
+}
+.my-recipie{
+    width: 40%;
+    margin-left: 400px;
+    text-align: center;
+}
+.recipie-width{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px 10px lightgray;
+}
+.recipie-width img{
+    width: 335px;
+}
+.follower{
+    width: 80%;
+    height: 20%;
+    margin-left: 5%;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px 10px lightgray;
+
+}
+.follower-width{
+    width: 33%;
+    float: left;
+
+}
