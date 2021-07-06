@@ -20,7 +20,7 @@ body{
     background-color: rgba(0,0,0,0.5);
     z-index: 2;
 }
-.headline{
+.head-width{
     width: 50%;
     height: 45px;
     color: white;
@@ -29,14 +29,14 @@ body{
 }
 a{
     text-decoration: none;
-    padding: 10px 40px;
+    padding: 10px 30px;
     border-color: green;
     border-style: solid;
     color: white;
 }
 .favourite-section{
     width: 100%;
-    height: 670px;
+    height: 600px;
     display: block;
 }
 .fav-header{
@@ -56,6 +56,8 @@ a{
     width: 80%;
     height: 240px;
     margin-left: 10%;
+    border-style: solid;
+    border-color: black;
     border-radius: 10px;
 }
 .fav-paragraph{
@@ -82,8 +84,10 @@ a{
     margin-left: 30px;
 }
 .half-width img{
-    width: 80%;
+    width: 90%;
+    height: 300px;
     margin-left: 60px;
+    box-shadow: 10px 10px 8px #888888;
 }
 h1{
     font-size: 40px;
@@ -91,7 +95,6 @@ h1{
 }
 span{
     color: orangered;
-    text-decoration: underline;
 }
 p{
     margin-bottom: 40px;
@@ -104,10 +107,10 @@ p{
     color: white;
 }
 .half-width .about-image{
-    width: 60%;
-    height: 340px;
+    width: 65%;
+    height: 350px;
     margin: 0 auto;
-    margin-left: 30%;
+    margin-left: 25%;
 }
 .about-banner .half-width{
     width: 40%;
