@@ -3,13 +3,10 @@ body{
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-section{
+.top-section{
     width: 100%;
-    height: 600px;
+    height: 610px;
     display: block;
-}
-span{
-    color: orangered;
 }
 .half-width{
     width: 40%;
@@ -22,7 +19,13 @@ span{
     width: 80%;
 }
 h1{
-    font-size: 40px;
+    font-size: 43px;
+}
+span{
+    color: orangered;
+}
+p{
+    margin-bottom: 40px;
 }
 .anchor-link{
     text-decoration: none;
@@ -31,7 +34,6 @@ h1{
     border-radius: 20px;
     color: white;
 }
-
 .half-width .about-image{
     width: 40%;
     height: 348px;
@@ -39,13 +41,25 @@ h1{
     margin-left: 30%;
     margin-top: 13%;
 }
+.about-banner .half-width{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    padding-top: 60px;
+    margin-top: 6%;
+    margin-left: 30px;
+}
 .about-banner{
     background-image: url("Images/shapes/7.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 560px;
     width: 100%;
     margin-top:150px;
+}
+.recipie-section{
+    width: 100%;
+    height: 600px;
 }
 .my-recipie{
     width: 40%;
@@ -72,6 +86,7 @@ h1{
     width: 100%;
     height: 200px;
     margin-top: 80px;
+    margin-bottom: 65px;
 }
 .follower{
     width: 85%;
@@ -90,4 +105,20 @@ h1{
 }
 div.follower-width h1{
     font-size: 30px;
+}
+.fotter-section{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
+h4{
+    color: honeydew;
+}
+.fotter-section p{
+    color: white;
+    margin-top: 20px;
+}
+.fotter-margin{
+    text-align: center;
+    padding: 20px;
 }
