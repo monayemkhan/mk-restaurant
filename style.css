@@ -111,6 +111,7 @@ p{
     height: 350px;
     margin: 0 auto;
     margin-left: 25%;
+    box-shadow: 10px 10px 8px #888888;
 }
 .about-banner .half-width{
     width: 40%;
