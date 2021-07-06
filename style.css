@@ -34,6 +34,23 @@ a{
     border-style: solid;
     color: white;
 }
+.favourite-section{
+    width: 100%;
+    height: 700px;
+    display: block;
+}
+.fav-main-width{
+    width: 80%;
+    height: 600px;
+}
+.fav-width{
+    width: 20%;
+    float: left;
+}
+.fav-width img{
+    width: 20%;
+    height: 50px;
+}
 .top-section{
     width: 100%;
     height: 610px;
