@@ -5,7 +5,8 @@ body{
 }
 section{
     width: 100%;
-    height: 550px;
+    height: 600px;
+    display: block;
 }
 span{
     color: orangered;
@@ -50,6 +51,11 @@ h1{
     width: 40%;
     margin-left: 400px;
     text-align: center;
+    margin-top: 10%;
+}
+.my-rcp-paragraph{
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 .recipie-width{
     width: 25%;
@@ -62,17 +68,26 @@ h1{
 .recipie-width img{
     width: 335px;
 }
+.follower-section{
+    width: 100%;
+    height: 200px;
+    margin-top: 80px;
+}
 .follower{
-    width: 80%;
-    height: 20%;
-    margin-left: 5%;
+    width: 85%;
+    height: 70%;
+    margin-left: 7%;
     padding: 10px;
     border-radius: 25px;
-    box-shadow: 10px 10px 10px 10px lightgray;
+    box-shadow: 5px 5px 5px 5px lightgray;
 
 }
 .follower-width{
-    width: 33%;
+    width: 20%;
     float: left;
+    margin-left: 140px;
 
+}
+div.follower-width h1{
+    font-size: 30px;
 }
