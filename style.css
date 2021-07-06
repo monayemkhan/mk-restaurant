@@ -5,7 +5,7 @@ body{
 }
 .top-banner{
     width: 100%;
-    height: 700px;
+    height: 670px;
     display: block;
     background-image: url(Images/food/food.jpg);
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@ body{
 #overlay{
     position: absolute;
     width: 100%;
-    height: 110%;
+    height: 107%;
     display: block;
     background-color: rgba(0,0,0,0.5);
     z-index: 2;
@@ -36,20 +36,38 @@ a{
 }
 .favourite-section{
     width: 100%;
-    height: 700px;
+    height: 670px;
     display: block;
 }
+.fav-header{
+    margin-left: 45%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
 .fav-main-width{
-    width: 80%;
-    height: 600px;
+    width: 100%;
+    margin-bottom: 10%;
 }
 .fav-width{
-    width: 20%;
+    width: 25%;
     float: left;
 }
 .fav-width img{
-    width: 20%;
-    height: 50px;
+    width: 80%;
+    height: 240px;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+.fav-paragraph{
+    margin-left: 30%;
+}
+.fav-main-width a{
+    text-decoration: none;
+    padding: 10px 30px;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    margin-left: 45%;
 }
 .top-section{
     width: 100%;
@@ -68,7 +86,8 @@ a{
     margin-left: 60px;
 }
 h1{
-    font-size: 43px;
+    font-size: 40px;
+    font-weight: 300;
 }
 span{
     color: orangered;
@@ -104,11 +123,12 @@ p{
     background-size: cover;
     height: 560px;
     width: 100%;
-    margin-top:150px;
+    margin-top:100px;
 }
 .recipie-section{
     width: 100%;
     height: 600px;
+    margin-bottom: 15%;
 }
 .my-recipie{
     width: 40%;
@@ -157,7 +177,7 @@ div.follower-width h1{
 }
 .fotter-section{
     width: 100%;
-    height: 150px;
+    height: 160px;
     background-color: black;
 }
 h4{
